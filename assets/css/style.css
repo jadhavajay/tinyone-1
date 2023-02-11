@@ -1,0 +1,259 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body{
+	line-height:1.5;
+}
+
+/* ..................helper css............. */
+
+ul{
+	list-style:none;
+}
+
+a:link, a:visited{
+	text-decoration:none;
+	color:#010101;
+}
+
+.text-center{
+	text-align:center;
+}
+
+.container{
+	width:1100px;
+	margin:0 auto;
+}
+
+.row, .row::after, .row::before{
+	display:table;
+	width:100%;
+	clear:both;
+}
+
+[class^="col-"]{
+	float:left;
+	padding:0 15px;
+}
+
+.col-1{
+	width:calc(100% * 1 / 12)
+}
+
+.col-2{
+	width:calc(100% * 2 / 12)
+}
+
+.col-3{
+	width:calc(100% * 3 / 12)
+}
+
+.col-4{
+	width:calc(100% * 4 / 12)
+}
+
+.col-5{
+	width:calc(100% * 5 / 12)
+}
+
+.col-6{
+	width:calc(100% * 6 / 12)
+}
+
+.col-7{
+	width:calc(100% * 7 / 12)
+}
+
+.col-8{
+	width:calc(100% * 8 / 12)
+}
+
+.col-9{
+	width:calc(100% * 9 / 12)
+}
+
+.col-10{
+	width:calc(100% * 10 / 12);
+}
+
+.mb-60{
+	margin-bottom:60px;
+}
+
+.mb-65{
+	margin-bottom:65px;
+}
+
+.mb-130{
+	margin-bottom:130px;
+}
+
+/* ########################section header css############################## */
+
+.pri-heading{
+	font-size:32px;
+	font-weight:bold;
+	color:#010101;
+	margin-bottom:22px;
+}
+
+.sec-heading{
+	color:#313841;
+	font-size:20px;
+	margin-bottom:25px;
+}
+
+.para{
+	color:#555555;
+	font-size:16px;
+	margin-bottom:40px;
+}
+
+.headsection{
+	background-color: #fcdb00;
+	padding:60px 0 100px;
+}
+
+.navbar{
+	text-align:right;
+}
+
+.navbar ul{
+	list-style:none;
+	display:inline-block;
+}
+
+.navbar ul li{
+	display:inline-block;
+	margin:0 20px;
+}
+
+.logo{
+	display:inline-block;
+	height:51px;
+	line-height:51px;
+}
+
+.navbar li a:link, .navbar li a:visited{
+	text-decoration:none;
+	color:#010101;
+	font-size:22px;
+	padding:0px 15px;
+	text-transform:capitalize;
+	transition:all .3s;
+	height:51px;
+	display:inline-block;
+	line-height:51px;
+}
+
+.navbar li a:hover, .navbar li a:focus, .navbar li a:active{
+	background-color:#010101;
+	color:#fcdb00;
+	border-radius:5px;
+}
+
+.navbar ul li:last-child{
+	margin-right:0px;
+}
+
+.inspiration{
+	margin-top:70px;
+}
+
+.brands li{
+	display:inline-block;
+	margin-right:40px;
+}
+
+/* ############################### features section############ */
+
+.features{
+	padding:120px 0 80px;
+}
+
+.featuresHeading{
+	padding:0 25px;
+}
+
+.thumbnail{
+	margin-bottom:80px;
+}
+
+.thumbInfo > h3{
+	font-size:22px;
+	font-weight:bold;
+	color:#010101;
+	margin-bottom:15px;
+}
+
+.thumbInfo > p{
+	font-size:16px;
+	color:#898989;
+	/* line-height:24px; */
+}
+
+/* ############contactSection css########## */
+
+.contactSection{
+	padding:95px 0 135px;
+	background-color:#010101;
+	
+}
+
+.contactSection .pri-heading{
+	color:#fcdb00;
+}
+
+.contactSection .sec-heading{
+	color:#898989;
+	margin-bottom:40px;
+}
+
+.btn-primary, .email{
+	height:50px;
+	border-radius:5px;
+}
+
+.form-group{
+	margin-bottom:75px;
+}
+
+.btn-primary{
+	background-color:#fcdb00;
+	color:#010101;
+	text-transform:uppercase;
+	/* padding:0px 35px; */
+	width:125px;
+	text-align:center;
+	cursor:pointer;
+	font-weight:bold;
+	font-size:16px;
+	margin-left:20px;
+}
+
+.email{
+	width:calc(100% - 150px);
+	padding:0 25px;
+}
+
+.email::placeholder{
+	color:#898989;
+}
+
+.contactSection .brands a:link, .contactSection .brands a:visited{
+	color:#fcdb00;
+}
+
+.footerLinks li, .footerLinks li a:link, .footerLinks li a:visited{
+	color:#fff;
+}
+
+.footerLinks li a:link, .footerLinks li a:visited{
+	text-transform:capitalize;
+}
+.footerLinks li{
+	font-weight:bold;
+}
